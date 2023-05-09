@@ -1,0 +1,36 @@
+.nav_container {
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.Logo_Link {
+    display: inline-block;
+    margin-right: 468px;
+}
+
+
+.Logo {
+    display: block;
+    width: 127px;
+    height: 22px;
+}
+
+.nav_link {
+    display: inline-block;
+    font-size: 18px;
+    height: 25px;
+    margin-left: 60px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    
+    text-decoration: none;
+    color: #121212;
+
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+}
