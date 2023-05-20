@@ -8,6 +8,8 @@
 @import url(contacts.css);
 @import url(end.css);
 @import url(logo.css);
+@import url(popup.css);
+@import url(burger.css);
 
 html {
     scroll-behavior: smooth;

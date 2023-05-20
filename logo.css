@@ -1,6 +1,9 @@
-.nav_container {
+.header-inner {
+    position: relative;
+    display: flex;
     padding-top: 30px;
-    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .Logo_Link {
@@ -15,19 +18,21 @@
     height: 22px;
 }
 
-.nav_link {
-    display: inline-block;
-    font-size: 18px;
-    height: 25px;
-    margin-left: 60px;
-    line-height: 25px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
+.header_nav {
+    display: flex;
+    width: 466px;
+    justify-content: space-between;
+}
 
-    
-    text-decoration: none;
+.nav_link {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
     color: #121212;
+    text-transform: uppercase;  
+    text-decoration: none;
+    transition: 0.5s;
+   
 
 }
 

@@ -16,24 +16,39 @@
 </head>
 <body>
 
-
-  <!--
-  <div class="nav_container">
-        <section>
-        <a class="Logo_Link" href="">
+    
+    <header class="header">
+        <div class="width_content">
+          <div class="header-inner">
+             <a class="Logo_Link" href="">
         <img class="Logo" src="resources/logo.png" alt="Логотип">
     </a>
 
-        <div class="nav">
+        <ul class="header_nav">
+         
+          <li>
             <a href="#history" class="nav_link" >О нас</a>
-            <a href="#projects" class="nav_link" >Проекты</a>
-            <a href="#servic" class="nav_link" >Услуги</a>
-            <a href="#contacts" class="nav_link" >Контакты</a>
+          </li>
 
-        </div>
-    </section> 
-</div>
-  -->
+          <li>
+            <a href="#projects" class="nav_link" >Проекты</a>
+          </li>
+            
+           <li>
+            <a href="#servic" class="nav_link" >Услуги</a>
+           </li>
+           
+           <li>
+            <a href="#contacts" class="nav_link" >Контакты</a>
+           </li>
+        </ul>
+
+            <button class="js-burger-btn burger-btn"></button>
+            
+          </div>
+        </div>   
+</header>
+
 <main>
   <section class="main_screen">
     <div class="width_content">
@@ -50,7 +65,7 @@
     </div> 
   </section>
 
-  <section class="about" id="">
+  <section class="about" id="history">
 <div class="width_content">
             <h2 class="about_title">О НАС</h2>
             <p class="about-us_text">
@@ -173,9 +188,10 @@
             </li>
           </ul>
           <div class="services_blok">
-            <button class="services_blok_btn" href="/404">Заказать услугу</button>
-          </div>
-      </div>
+            <button class="services_blok_btn js-btn">Заказать услугу</button>
+          </div>  
+     
+    </div>
     </section>
     
 
@@ -307,7 +323,7 @@
     </section>
 
     
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="width_content">
             <h2 class="project_contact_text">КОНТАКТЫ</h2>
             
@@ -342,9 +358,68 @@
             <p class="nav_end_text">студия дизайна интерьера Метрика - 2023</p>
     
       </div>
-       
     </footer>
    
+    <section class="js-popup popup">
+      <div class="js-popup__content popup_content">
+      <p class="popup__title">Заказать услугу</p>
+      <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток
+      </p>
+      
+        <input class="input" type="text" name="name" placeholder="Имя">
+        <input class="input" type="email" name="email" placeholder="Электронная почта">
+        <input class="input" type="tel" name="phope" placeholder="Телефон">
+      
+      <button class="popup__blok">Отправить</button>
+
+      <div class="js-popup__close-btn poput__close-btn"></div>
+      </div>
+
+    </section>
+
+    <section class="js-burger burger ">
+      <div class="burger__content">
+         <a href="burger__logo-img">
+          <img class="header__logo-img" src="resources/logo.png" alt="Логотип"/>
+         </a>
+
+         <ul class="burger__nav">
+         
+          <li>
+            <a class="burger__nav-link" href="#history">О нас</a>
+          </li>
+
+          <li>
+            <a class="burger__nav-link" href="#projects">Проекты</a>
+          </li>
+            
+           <li>
+            <a class="burger__nav-link" href="#servic">Услуги</a>
+           </li>
+           
+           <li>
+            <a class="burger__nav-link" href="#contacts">Контакты</a>
+           </li>
+        </ul>
+
+        <div class="js-burger__content burger__contact">
+          <h2 class="burger__contact-title">Для связи:</h2>
+          <ul class="burger__contact-items">
+            <li class="burger__contact-number">
+              <a class="burger__number-link" href="tel:+79505869086">+7 950 586 90 86</a>
+            </li>
+
+            <li class="burger__contact-tg">
+            <a class="burger__tg-link"
+            href="https://t.me/a_aleksandrovna97"
+            target="_blank">
+            Alina Polenok</a>
+            </li>
+          </ul>
+        
+        </div>                
+      </div>
+      </section>>
 
 
 
@@ -352,6 +427,8 @@
 
 
    <script src="gallery.js"></script>
+   <script src="popup.js"></script>
+   <script src="burger.js"></script>
     </div>
      </body>
  </html>

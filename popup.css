@@ -1,0 +1,142 @@
+.popup {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+}
+
+.popup_open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.body_fixed{
+    overflow: hidden;
+}
+
+.popup_content {
+    position: relative;
+    width: 777px;
+    height: 708px;
+    max-height: 100%;
+    overflow-y: auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.popup__title {
+    margin-top: 94px;
+    font-size: 45px;
+    line-height: 61px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.popup__text {
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.input {
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 643px;
+    font-size: 25px;
+    height: 34px;
+    margin-left: 55px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input::placeholder {
+    color: gray;
+}
+
+.poput__close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    width: 30px;
+    height: 30px;
+    background-image: url(/resources/dagger.png);
+    cursor: pointer;
+}
+
+.popup__blok {
+    position: absolute;
+    width: 644px;
+    height: 67px;
+    margin-left: 59px;
+    margin-right: 74px;
+    padding: 20px 40px;
+    font-size: 20px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+@media (max-width: 1199px) {
+    .popup {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .popup_content {
+        width: 361px;
+        line-height: 611px;
+        left: 7px;
+    }
+
+    .popup__title {
+        margin-top: 80px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+    
+    .popup__text {
+        width: 209px;
+        margin-top: 11px;
+        font-size: 14px;
+        line-height: 19px;
+        margin-left: 76px;
+    }
+
+    .input {
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 75px;
+        font-size: 18px;
+        line-height: 25px;
+        margin-left: 16px;
+        
+    }
+
+    .popup__blok {
+        width: 329px;
+        margin-left: 23px;
+        font-size: 20px;
+        line-height: 27px;
+        gap: 10px;
+    }
+}
