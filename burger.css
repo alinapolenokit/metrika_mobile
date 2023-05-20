@@ -63,7 +63,7 @@
         top: 30px;
         width: 50px;
         height: 15px;
-        background-image: url(/resources/burger_open.png);
+        background-image: url(../resources/burger_open.png);
         z-index: 100;
     }
 
@@ -71,7 +71,7 @@
         top: 20px;
         width: 34px;
         height: 34px;
-        background-image: url(/resources/burger_close.png);
+        background-image: url(../resources/burger_close.png);
         z-index: 100;
         
     }
@@ -176,7 +176,7 @@
         top: 30px;
         width: 50px;
         height: 15px;
-        background-image: url(/resources/burger_open.png);
+        background-image: url(../resources/burger_open.png);
         z-index: 100;
     }
 
@@ -184,7 +184,7 @@
         top: 20px;
         width: 34px;
         height: 34px;
-        background-image: url(/resources/burger_close.png);
+        background-image: url(../resources/burger_close.png);
         z-index: 100;
         
     }
