@@ -67,9 +67,9 @@
 }
 
 .services_blok_btn:hover {
-    color: #FFFFFF;
-    background-color: #AD1818;
-    border: 1px solid #AD1818;
+    color: #121212;
+    background-color: #FFFFFF;
+    border: 1px solid  #FFFFFF;
 }
 
 @media (max-width: 1199px) {
