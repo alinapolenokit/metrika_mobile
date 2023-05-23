@@ -37,9 +37,13 @@ h1,
 h2,
 h4, 
 a,
-p {
+p,
+button,
+input {
+  font-family: manrope;
   letter-spacing: -0.03em;
 }
+
 
 h1 {
     font-size: 60px;
