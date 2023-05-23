@@ -37,11 +37,11 @@
 }
 
 .contact_number:before {
-    background-image: url(/resources/telephone.png);
+    background-image: url(resources/telephone.png);
 }
 
 .contact_email:before {
-    background-image: url(/resources/mail.png);
+    background-image: url(resources/mail.png);
 }
 
 .number_link,
