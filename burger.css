@@ -37,7 +37,7 @@
     transform: translate(100px);
 }
 
-.burger__open .burger__content {
+.burger_open .burger__content {
     transform: translate(0);
 }
 
