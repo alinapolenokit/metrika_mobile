@@ -79,11 +79,11 @@
   }
   
   .gallery__control-prev {
-    background-image:url(resources/prev.png);
+    background-image:url(/resources/prev.png);
   }
   
   .gallery__control-next {
-    background-image: url(resources/next.png);
+    background-image: url(../resources/next.png);
   }
   
   .gallery__control-prev:hover,

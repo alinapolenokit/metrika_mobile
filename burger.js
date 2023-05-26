@@ -9,6 +9,7 @@ const burgerContentNode = document.querySelector('.js-burger__content')
 const burgerItem = document.querySelector('.burger__content');
 
 burgerBtnNode.addEventListener('click', toggleBurger);
+burgerItem.addEventListener("click",toggleBurger);
 
 burgerNode.addEventListener('click', (event) => {
     const isClickOutsideContent = !event.composedPath().includes(burgerContentNode)

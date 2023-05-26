@@ -82,7 +82,7 @@
     background: none;
     border: none;
     cursor: pointer;
-    background-image: url(resources/dagger.png);
+    background-image: url(/resources/dagger.png);
     background-position: center;
     background-size: cover;
 }
