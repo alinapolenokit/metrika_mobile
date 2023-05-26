@@ -79,11 +79,11 @@
   }
   
   .gallery__control-prev {
-    background-image:url(resources/prev.png);
+    background-image:url(/resources/prev.png);
   }
   
   .gallery__control-next {
-    background-image: url(resources/next.png);
+    background-image: url(../resources/next.png);
   }
   
   .gallery__control-prev:hover,
@@ -130,7 +130,7 @@
   
     .gallery__controls-wrapper {
       max-width: 150px;
-      left: 41px;
+      left: 52px;
       bottom: 152px;
     }
   }
@@ -185,7 +185,7 @@
     .gallery__control-next {
       background-size: contain;
       background-position: center;
-      width: 30px;
+      width: 22px;
       height: 30px;
     }
   }

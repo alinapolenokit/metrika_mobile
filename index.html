@@ -42,7 +42,9 @@
             <a href="#contacts" class="nav_link" >КОНТАКТЫ</a>
            </li>
         </ul>
+
             <button class="js-burger-btn burger-btn"></button>
+            
           </div>
         </div>   
 </header>
@@ -145,15 +147,15 @@
 </section>
         
       
-<section class="services" id="servic">
-  <div class="width_content">
-   <h2 class="services_title">УСЛУГИ</h2>
-    <ul class="services_box">
-       <li class="section_black">
-         <picture>
-          <source 
-            media="(max-width: 1199px)" 
-            srcset="resources/services/Drawings.jpg">
+        <section class="services" id="servic">
+          <div class="width_content">
+          <h2 class="services_title">УСЛУГИ</h2>
+          <ul class="services_box">
+            <li class="section_black">
+            <picture>
+                <source 
+                media="(max-width: 1199px)" 
+                srcset="resources/services/Drawings.jpg">
                 <source 
                 media="(max-width: 767px)" 
                 srcset="resources/services/Drawings.jpg">
@@ -221,7 +223,9 @@
               <h4 class="services__img_text">Комплектация</h4>
             </li>
           </ul>
+          
             <button class="services_blok_btn js-btn">Заказать услугу</button> 
+     
     </div>
     </section>
     
@@ -283,7 +287,7 @@
       <div class="gallery">
         <div class="gallery__title-wrapper">
           <div class="width_content">
-            <p class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</p>
+            <h2 class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</h2>
           </div>
         </div>
         <div class="gallery__slides">
@@ -360,7 +364,7 @@
             
           <ul class="contact_blok">
               <li class="contact_number">
-                <a class="number_link" href="tel:+7 935 895-45-35">+7 935 895-45-35</a>
+                <a class="number_link" href="tel:+7 (935) 895-45-35">+7 (935) 895-45-35</a>
               </li>
 
               <li class="contact_email">
@@ -378,55 +382,69 @@
       <div class="width_content">
         <div class="footer_inner">
           <ul class="nav">
-            <li href="#history" class="nav_link_2">О НАС</li>
-            <li href="#projects" class="nav_link_2">ПРОЕКТЫ</li>
-            <li href="#servic" class="nav_link_2">УСЛУГИ</li>
-            <li href="#contacts" class="nav_link_2">КОНТАКТЫ</li>
+            <li>
+              <a class="nav_link_2" href="#history">О НАС</a>
+            </li>
+
+            <li>
+              <a class="nav_link_2" href="#projects">ПРОЕКТЫ</a>
+            </li>
+            <li>
+              <a class="nav_link_2" href="#servic">УСЛУГИ</a>
+            </li>
+            <li>
+              <a class="nav_link_2" href="#contacts">КОНТАКТЫ</a>
+            </li>
           </ul>
+          
         </div>
+
             <p class="nav_end_text">студия дизайна интерьера Метрика - 2023</p>
+    
       </div>
     </footer>
    
     <section class="js-popup popup">
-      <div class="js-popup__content popup_content">
+      <div class="js-popup__content popup__content">
+        <button class="js-popup__close-btn poput__close-btn"></button>
       <p class="popup__title">Заказать услугу</p>
       <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток
       </p>
-      
-        <input class="input" type="text" name="name" placeholder="Имя">
-        <input class="input" type="email" name="email" placeholder="Электронная почта">
-        <input class="input" type="tel" name="phope" placeholder="Телефон">
-      
-      <button class="popup__blok">Отправить</button>
 
-      <div class="js-popup__close-btn poput__close-btn"></div>
+      <div class="popup__input-wrapper">
+        <input class="popup__input" type="text" name="name" placeholder="Имя">
+        <input class="popup__input" type="email" name="email" placeholder="Электронная почта">
+        <input class="popup__input" type="tel" name="phope" placeholder="Телефон">
       </div>
-
+      <button class="popup__blok">Отправить</button>
+      </div>
     </section>
 
     <section class="js-burger burger ">
-      <div class="burger__content">
-         <a href="burger__logo-img">
-          <img class="header__logo-img" src="resources/logo.png" alt="Логотип"/>
+      <div class="js-burger__content burger__content">
+         <a class="burger__logo-link" href="/">
+          <img 
+          class="header__logo-img" 
+          src="resources/logo.png" 
+          alt="Логотип"/>
          </a>
 
          <ul class="burger__nav">
          
           <li>
-            <a class="burger__nav-link" href="#history">О нас</a>
+            <a class="burger__nav-link" href="#history">О НАС</a>
           </li>
 
           <li>
-            <a class="burger__nav-link" href="#projects">Проекты</a>
+            <a class="burger__nav-link" href="#projects">ПРОЕКТЫ</a>
           </li>
             
            <li>
-            <a class="burger__nav-link" href="#servic">Услуги</a>
+            <a class="burger__nav-link" href="#servic">УСЛУГИ</a>
            </li>
            
            <li>
-            <a class="burger__nav-link" href="#contacts">Контакты</a>
+            <a class="burger__nav-link" href="#contacts">КОНТАКТЫ</a>
            </li>
         </ul>
 
@@ -434,7 +452,7 @@
           <h2 class="burger__contact-title">Для связи:</h2>
           <ul class="burger__contact-items">
             <li class="burger__contact-number">
-              <a class="burger__number-link" href="tel:+79505869086">+7 950 586 90 86</a>
+              <a class="burger__number-link" href="tel:+7 (935) 895-45-35">+7 950 586 90 86</a>
             </li>
 
             <li class="burger__contact-tg">

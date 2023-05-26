@@ -27,18 +27,18 @@
 }
 
 .burger__content {
-    width: 300px;
+    padding: 80px 0 60px 30px;
+    width: 400px;
     height: 600px;
     max-width: 100%;
     background-color: #fff;
-    border-bottom: 30px;
-    overflow: auto;
+    overflow-y: auto;
     transition: transform 0.3s linear;
-    transform: translateX(100px);
+    transform: translate(100px);
 }
 
 .burger__open .burger__content {
-    transform: translateX(0);
+    transform: translate(0);
 }
 
 @media (max-width: 1199px) {
@@ -63,7 +63,7 @@
         top: 30px;
         width: 50px;
         height: 15px;
-        background-image: url(resources/burger_open.png);
+        background-image: url(/resources/burger_open.png);
         z-index: 100;
     }
 
@@ -71,9 +71,7 @@
         top: 20px;
         width: 34px;
         height: 34px;
-        background-image: url(resources/burger_close.png);
-        z-index: 100;
-        
+        background-image: url(/resources/burger_close.png);       
     }
 
     .burger-btn:hover,
@@ -84,15 +82,12 @@
 
     .burger__logo-link,
     .header__logo-img {
-        margin-top: 80px;
         width: 156px;
         height: 26px;
-        margin-bottom: 50px;
-        margin-left: 30px;
     }
 
     .burger__nav {
-        margin-left: 30px;
+        margin-top: 50px;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -101,7 +96,7 @@
     .burger__nav-link {
         font-size: 25px;
         line-height: 34px;
-        color: #121212;
+        color: #000000;
         text-decoration: none;
         transition: 0.5s;
     }
@@ -119,7 +114,6 @@
     .burger__contact-title {
         font-size: 16px;
         line-height: 22px;
-        margin-left: 33px;
         color: #000000;
         opacity: 0.5;
     }
@@ -132,7 +126,6 @@
     .burger__number-link {
         font-size: 20px;
         line-height: 35px;
-        margin-left: 16px;
         color: #121212;
         text-decoration: none;
         transition: 0.05s;
@@ -141,7 +134,6 @@
     .burger__tg-link {
         font-size: 20px;
         line-height: 37px;
-        margin-left: 30px;
         color: #121212;
         text-decoration: none;
         transition: 0.05s;
