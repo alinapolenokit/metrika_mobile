@@ -143,11 +143,11 @@
     }
     
     .popup__text {
-        width: 209px;
-        margin-top: 11px;
-        font-size: 14px;
-        line-height: 19px;
-        margin-left: 76px;
+       margin: 0 auto;
+       margin-top: 11px;
+       width: 210px;
+       font-size: 14px;
+       line-height: 19px;
     }
 
     .popup__input {
