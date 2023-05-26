@@ -22,7 +22,6 @@
 .contact_number, 
 .contact_email {
     position: relative;
-    width: 472px;
 }
 
 .contact_number:before,
